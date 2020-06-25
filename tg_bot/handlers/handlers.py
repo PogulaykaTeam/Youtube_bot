@@ -17,5 +17,5 @@ from aiogram.dispatcher import FSMContext
 @dp.message_handler(commands=['start'], state='*')
 async def heyho(message: types.Message):
     if str(message['chat']['id']) in [admin_id, far_id]:
-        await message.answer('Salam')
-
+        await message.answer(hi_txt, reply_markup=menu_m)
+    await BotStates.menu.set()
