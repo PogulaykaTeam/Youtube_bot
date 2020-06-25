@@ -4,7 +4,7 @@
 # importing handlers and file of defining servers
 from aiogram import executor, types
 import handlers
-from Script_for_youtube.tg_bot.misc import dp
+from Youtube_bot.tg_bot.misc import dp
 
 
 # start

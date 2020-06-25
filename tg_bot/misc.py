@@ -4,7 +4,7 @@
 from aiogram import Bot, Dispatcher
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
-from Script_for_youtube.config import bot_token
+from Youtube_bot.config import bot_token
 
 
 # Defining bot

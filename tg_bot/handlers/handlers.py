@@ -7,10 +7,10 @@
 
 from aiogram import types
 
-from Script_for_youtube.tg_bot.misc import dp, bot
-from Script_for_youtube.config import admin_id, far_id
-from Script_for_youtube.tg_bot.states import BotStates
-from Script_for_youtube.tg_bot.markups import *
+from Youtube_bot.tg_bot.misc import dp, bot
+from Youtube_bot.config import admin_id, far_id
+from Youtube_bot.tg_bot.states import BotStates
+from Youtube_bot.tg_bot.markups import *
 from aiogram.dispatcher import FSMContext
 
 
